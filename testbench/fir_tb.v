@@ -28,8 +28,13 @@ module fir_tb;
         outfile = $fopen("data/fir_output.txt", "w");
 
 
-        if (outfile == 0) $display("❌ Failed to open output file");
-        else              $display("✅ Opened output file successfully");
+        if (outfile == 0) begin
+            $display("Failed to open output file");
+        end
+            
+        else begin
+            $display("Opened output file successfully");
+        end
 
         for (i = 0; i < 16; i = i + 1)
             r = $fscanf(coefffile, "%d\n", coeffs[i]);
