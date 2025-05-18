@@ -12,7 +12,6 @@ This project implements both FIR (Finite Impulse Response) and IIR (Infinite Imp
 - Outputs written to text files for post-processing or comparison  
   ```
 
-```markdown
 ## Prerequisites
 
 -   **Icarus Verilog** (`iverilog`, `vvp`) installed and on your `PATH`
@@ -25,7 +24,7 @@ This project implements both FIR (Finite Impulse Response) and IIR (Infinite Imp
     ```bash
     pip install numpy scipy
     ```
-```
+
 
 ## Usage
 
