@@ -10,17 +10,22 @@ This project implements both FIR (Finite Impulse Response) and IIR (Infinite Imp
 - Python scripts to design filters and generate test vectors  
 - Verilog testbench reads input samples and coefficients from text files  
 - Outputs written to text files for post-processing or comparison  
-
-## Prerequisites
-- **Icarus Verilog** (`iverilog`, `vvp`) installed and on your PATH  
-  - On Windows PowerShell:  
-    ```powershell
-    $env:Path += ";C:\iverilog\bin"
-    ```
-- **Python 3.x** with NumPy & SciPy:
-  ```bash
-  pip install numpy scipy
   ```
+
+```markdown
+## Prerequisites
+
+-   **Icarus Verilog** (`iverilog`, `vvp`) installed and on your `PATH`
+    -   On Windows PowerShell:
+        ```powershell
+        $env:Path += ";C:\iverilog\bin"
+        ```
+
+-   **Python 3.x** with NumPy & SciPy:
+    ```bash
+    pip install numpy scipy
+    ```
+```
 
 ## Usage
 
